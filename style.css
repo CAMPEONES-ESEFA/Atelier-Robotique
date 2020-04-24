@@ -119,6 +119,23 @@
 .is-open .header__navbar--menu{
     transform: translateY(0);
 }
+.navbar.bg-light{
+	background: none !important;
+}
+#navbarNav .navbar-nav{
+	float: ;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding-left: 45px !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #1c2063 !important;
+}
+
+#navbarNav .nav-link:hover {
+    color: #7C077C !important;
+    }
+
 /*
 .sticky{
     background: #000;
@@ -131,6 +148,14 @@
         width: 100%;
         padding: 0 20px ;
     }
+    #navbarNav {
+    background: #fff;
+    margin-top: 14px;
+    }
+    #navbarNav .nav-link {
+    padding: 11px !important;
+    }
+    
     .header__texture{
         width: 100%;
     }
@@ -158,5 +183,10 @@
     .h__slogan--title{
         font-size: 20px;
     }
+
+    #navbarNav .nav-item{
+	    
+    }
+    
 }
 
